@@ -1,0 +1,92 @@
+@font-face {
+    font-family: 'LatoLight';
+    src: url('../css/ie-font/Lato-Light-webfont.eot');
+    src: url('../css/ie-font/Lato-Light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../css/ie-font/Lato-Light-webfont.woff') format('woff'),
+         url('../css/ie-font/Lato-Light-webfont.ttf') format('truetype'),
+         url('../css/ie-font/Lato-Light-webfont.svg#LatoLight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'YanoneKaffeesatzRegular';
+    src: url('../css/ie-font/YanoneKaffeesatz-Regular-webfont.eot');
+    src: url('../css/ie-font/YanoneKaffeesatz-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../css/ie-font/YanoneKaffeesatz-Regular-webfont.woff') format('woff'),
+         url('../css/ie-font/YanoneKaffeesatz-Regular-webfont.ttf') format('truetype'),
+         url('../css/ie-font/YanoneKaffeesatz-Regular-webfont.svg#YanoneKaffeesatzRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'AntonRegular';
+    src: url('../css/ie-font/anton-webfont.eot');
+    src: url('../css/ie-font/anton-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../css/ie-font/anton-webfont.woff') format('woff'),
+         url('../css/ie-font/anton-webfont.ttf') format('truetype'),
+         url('../css/ie-font/anton-webfont.svg#AntonRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+.call-to-action h2, 
+.service h4,
+.home-blog h2,
+#home-blog h3,
+h3#comments-title,
+h3.respond-title,
+.inner-cta-wrap .cta-small-title,
+#blog-list h3,
+#call-to-action h2, #cta-top h2.inner-title,
+#home-portfolio .details h4,
+.entry-content h2,
+.entry-content h1,
+.entry-content h3,
+.entry-content h4,
+#content h2,
+#content h1,
+#content h3,
+#content h4,
+.cta-button span
+{font-family:'LatoLight', Arial, sans-serif!important;}
+
+h3.post-title,
+.inner-cta-wrap .cta-strong-title,
+.home-section-title h3,
+h2.strong-title,
+.home-section-title h3 ,
+#share span,
+#nav-info-box span
+{font-family:'AntonRegular', Arial, sans-serif!important;}
+
+#post-content-wrap ul#filter a
+{font-family: Arial, sans-serif!important;}
+
+#home-portfolio .details {position:relative;left:15px;}
+#home-portfolio .details span  {width:50px;}
+
+.cta-wrap {margin-top:20px;}
+
+#social-icons li{width:32px;}
+
+#header {position:relative;}
+nav {position:absolute;z-index:100;}
+#slider-main-wrap {position:relative;}
+#slider-main-wrap .entry-content {position:absolute;z-index:1;}
+
+#home-portfolio .details  {margin-left:5px;}
+
+#body-wrap {
+min-height: 100%;
+height: auto !important;
+height: 100%;
+margin: 0 auto -4em;
+}
+
+.footer, .push {
+height: 4em;
+}
